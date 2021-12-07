@@ -1,0 +1,40 @@
+@font-face {
+font-family: "Roboto";
+src: url("../Roboto-Regular.ttf");
+}
+
+* {
+    font-family: 'Roboto', Courier, monospace;
+}
+
+.project {
+    transition: transform .1s;
+}
+
+.project:hover{
+    transform: scale(1.1);
+}
+
+.primary { 
+    background-color: #031634;
+}
+
+.secondary {
+    background-color: #033649;
+}
+
+.complement1 {
+    background-color: #036564;
+}
+
+.complement2 {
+    background-color: #CDB380;
+}
+
+.complement3 {
+    background-color: #E8DDCB;
+}
+
+.cwhite {
+    background-color: #eeeeee;
+}
